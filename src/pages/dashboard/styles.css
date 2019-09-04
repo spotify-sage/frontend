@@ -1,0 +1,43 @@
+div.dashboard {
+  display: flex-inline;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 200px;
+}
+
+.dashboard h3 {
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.dashboard p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+span.MuiSlider-root {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 50%;
+}
+
+.dashboard a#button {
+  height: 40px;
+  width: 80px;
+  font-size: 14px;
+  font-weight: normal;
+  margin-right: 8px;
+  border-radius: 5px;
+  border: 2px solid #2e294e;
+  background: none;
+  color: #2e294e;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.dashboard a#button:hover {
+  background: #2e294e;
+  color: #fafafa;
+}
